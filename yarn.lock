@@ -11353,13 +11353,6 @@ gatsby-plugin-react-svg@^3.1.0:
   dependencies:
     svg-react-loader "^0.4.6"
 
-gatsby-plugin-remove-trailing-slashes@^4.17.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-trailing-slashes/-/gatsby-plugin-remove-trailing-slashes-4.17.0.tgz#eaad84f5d2083b065e44e9b0a025b9146c447b4f"
-  integrity sha512-pQTsappR573nMiWjMd7aMMQbPOSmP7O5cvV8j3dSYnmI6W3oFJSEg9IuLJbrwk3Ee4gkG+hRXE6qUu9cOwY8YA==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-
 gatsby-plugin-sass@^5.17.0:
   version "5.17.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-5.17.0.tgz#9c5c8c6de103bb3e3fcf82a643b0a7f2da0d9d84"
@@ -22399,7 +22392,7 @@ tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
-tar-fs@*, tar-fs@2.1.1, tar-fs@^2.0.0, tar-fs@^2.1.1:
+tar-fs@2.1.1, tar-fs@^2.0.0, tar-fs@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-2.1.1.tgz#489a15ab85f1f0befabb370b7de4f9eb5cbe8784"
   integrity sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
