@@ -23,9 +23,6 @@ exports.onCreatePage = async ({ page, actions }) => {
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
     actions.setWebpackConfig({
-        infrastructureLogging: {
-            level: 'verbose',
-        },
         resolve: {
             extensions: ['.js', '.ts', '.tsx'],
             alias: {
