@@ -4,9 +4,10 @@ import { SEO } from 'components/seo'
 import React from 'react'
 import { Question } from 'squeak-react'
 
-export default function QuestionPage() {
+export default function QuestionPage({ id }) {
     return (
         <Layout>
+            <h1>Question ID: {id}</h1>
             <SEO title={'Questions - PostHog'} />
             <Breadcrumbs
                 crumbs={[{ title: 'Questions', url: '/questions' }]}

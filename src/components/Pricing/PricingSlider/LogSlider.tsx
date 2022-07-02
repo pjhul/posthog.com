@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from 'rc-slider'
-import 'rc-slider/assets/index.css'
 import './log-slider.scss'
+import 'rc-slider/assets/index.css'
 import { pricingSliderLogic } from './pricingSliderLogic'
 import { useValues } from 'kea'
 

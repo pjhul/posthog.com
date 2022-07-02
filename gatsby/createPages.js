@@ -504,7 +504,8 @@ module.exports = exports.createPages = async ({ actions, graphql }) => {
             })
         }
     })
-    result.data.questions.nodes.forEach((node) => {
+
+    /*result.data.questions.nodes.forEach((node) => {
         const { id } = node
         createPage({
             path: `questions/${id}`,
@@ -513,5 +514,5 @@ module.exports = exports.createPages = async ({ actions, graphql }) => {
                 id,
             },
         })
-    })
+    })*/
 }

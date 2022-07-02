@@ -16,13 +16,16 @@ exports.onCreatePage = async ({ page, actions }) => {
         createPage(page)
     }
     if (page.path.match(/^\/question$/)) {
-        page.matchPath = '/question/*'
+        page.matchPath = '/question/:id'
         createPage(page)
     }
 }
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
     actions.setWebpackConfig({
+        infrastructureLogging: {
+            level: 'verbose',
+        },
         resolve: {
             extensions: ['.js', '.ts', '.tsx'],
             alias: {
