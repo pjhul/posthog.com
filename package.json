@@ -56,6 +56,7 @@
         "gatsby-plugin-mailchimp": "^5.2.2",
         "gatsby-plugin-manifest": "^4.17.0",
         "gatsby-plugin-mdx": "^3.17.0",
+        "gatsby-plugin-netlify": "^5.0.0",
         "gatsby-plugin-offline": "^5.17.0",
         "gatsby-plugin-postcss": "^5.17.0",
         "gatsby-plugin-posthog": "^1.0.1",
