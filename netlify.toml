@@ -1,5 +1,5 @@
 [functions]
-  included_files = ["!node_modules/chrome-aws-lambda/**/*", "!**/chromium.br"]
+  included_files = ["!node_modules/chrome-aws-lambda/**/*", "!**/chromium.br", "!**/query-engine/**/*"]
 
 [[redirects]]
   from = "/plugins/*"

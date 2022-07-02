@@ -45,6 +45,7 @@ module.exports = {
             },
         },
         'gatsby-plugin-react-helmet',
+        'gatsby-plugin-netlify',
         `gatsby-plugin-sass`,
         `gatsby-plugin-typescript`,
         `gatsby-plugin-smoothscroll`,
@@ -130,7 +131,12 @@ module.exports = {
                 path: `${__dirname}/static/images/authors`,
             },
         },
-        `gatsby-transformer-gitinfo`,
+        {
+            resolve: `gatsby-transformer-gitinfo`,
+            options: {
+                include: /[src|contents]\/.*\.md?$/,
+            },
+        },
         {
             resolve: `gatsby-plugin-sharp`,
             options: {
@@ -138,7 +144,7 @@ module.exports = {
                     formats: [`auto`, `webp`],
                     placeholder: `dominantColor`,
                     quality: 50,
-                    breakpoints: [750, 1080, 1366, 1920],
+                    breakpoints: [750, 1080, 1920],
                     backgroundColor: `transparent`,
                     tracedSVGOptions: {},
                     blurredOptions: {},
