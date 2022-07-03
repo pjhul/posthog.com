@@ -1,5 +1,11 @@
 [functions]
-  included_files = ["!.cache/query-engine/assets/**/chromium.br", "!.cache/data/**/*", "!.cache/query-engine/assets/vendor/**/*"]
+  included_files = [
+    "!.cache/query-engine/assets/**/chromium.br",
+    "!.cache/data/**/*",
+    "!.cache/query-engine/assets/vendor/**/*",
+    "!.cache/query-engine/assets/vendor/**/*"
+    "!.cache/page-ssr/routes/**/*"
+]
 
 [[redirects]]
   from = "/plugins/*"
