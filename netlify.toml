@@ -3,7 +3,6 @@
     "!.cache/query-engine/assets/**/chromium.br",
     "!.cache/data/**/*",
     "!.cache/query-engine/assets/**/*",
-    "!.cache/page-ssr/routes/**/*"
 ]
 
 [[redirects]]
