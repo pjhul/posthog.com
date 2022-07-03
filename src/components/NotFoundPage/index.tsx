@@ -5,7 +5,7 @@ import { posthogAnalyticsLogic } from '../../logic/posthogAnalyticsLogic'
 import { BasicHedgehogImage } from '../BasicHedgehogImage'
 import { CallToAction } from '../CallToAction'
 import Layout from '../Layout'
-import './NotFoundPage.scss'
+// import './NotFoundPage.scss'
 
 export default function NotFoundPage(): JSX.Element {
     const { posthog } = useValues(posthogAnalyticsLogic)

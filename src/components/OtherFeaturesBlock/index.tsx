@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import featuresPageData from './features'
-import './other-features.scss'
+// import './other-features.scss'
 import { Spacer } from '../Spacer'
 import { FeaturesPageData } from '../../types'
 

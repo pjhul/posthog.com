@@ -1,6 +1,6 @@
 import React from 'react'
 import featuresComparisonData from './comparison-data'
-import './features-table.scss'
+// import './features-table.scss'
 
 export const FeaturesComparisonTable = () => {
     return (

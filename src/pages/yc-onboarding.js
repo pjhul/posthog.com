@@ -4,7 +4,6 @@ import { DemoScheduler } from '../components/DemoScheduler'
 import { Spacer } from '../components/Spacer'
 import { Link } from 'gatsby'
 import { Button } from 'antd'
-import './styles/yc-onboarding.scss'
 
 const DemoCallInfo = () => (
     <>

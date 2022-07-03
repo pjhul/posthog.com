@@ -9,7 +9,7 @@ import retentionIcon from '../../images/retention-icon.svg'
 import sessionRecordingIcon from '../../images/session-recording-icon.svg'
 import pluginsIcon from '../../images/plugins-icon.svg'
 
-import './features-nav.scss'
+// import './features-nav.scss'
 
 export const FeaturesNav = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import './FeatureAvailability.scss'
+// import './FeatureAvailability.scss'
 import { CheckCircleFilled, CloseCircleFilled, InfoCircleOutlined, MinusCircleFilled } from '@ant-design/icons'
 
 type AvailablePlans = 'free' | 'standard' | 'enterpriseCloud' | 'startup' | 'openSource' | 'scale' | 'enterprise'

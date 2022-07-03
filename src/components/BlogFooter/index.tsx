@@ -3,7 +3,7 @@ import { NewsletterForm } from '../NewsletterForm'
 import { Structure } from '../Structure'
 import { PostCard } from '../PostCard'
 import { BlogPosts } from '../Blog/BlogPosts'
-import './style.scss'
+// import './style.scss'
 import { PostType } from '../PostCard/PostCard'
 
 export interface BlogFooterProps {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './page-header.scss'
+// import './page-header.scss'
 
 interface PageHeaderProps {
     title: string

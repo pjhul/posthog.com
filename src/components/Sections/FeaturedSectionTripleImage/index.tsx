@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spacer } from '../../Spacer'
-import './style.scss'
+// import './style.scss'
 
 interface FeaturedSectionTripleImageProps {
     mobileImg?: string

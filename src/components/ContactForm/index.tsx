@@ -1,5 +1,5 @@
 import React, { ChangeEvent, useState } from 'react'
-import './ContactForm.scss'
+// import './ContactForm.scss'
 import { useActions, useValues } from 'kea'
 import { signupLogic } from 'logic/signupLogic'
 import { CheckCircleFilled, ExclamationCircleOutlined, LoadingOutlined } from '@ant-design/icons'

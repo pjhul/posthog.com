@@ -1,6 +1,6 @@
 import React from 'react'
 import Button, { ButtonProps } from 'antd/lib/button'
-import './ButtonBlock.scss'
+// import './ButtonBlock.scss'
 
 interface ButtonBlockProps {
     as?: 'button' | 'a'

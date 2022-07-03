@@ -8,7 +8,7 @@ import lightTheme from 'prism-react-renderer/themes/nightOwlLight'
 import React, { useEffect, useState } from 'react'
 import { generateRandomHtmlId, getCookie } from '../../lib/utils'
 import { posthogAnalyticsLogic } from '../../logic/posthogAnalyticsLogic'
-import './style.scss'
+// import './style.scss'
 
 const TooltipTitle = ({ title, visible, className }: { title: string; visible: boolean; className?: string }) => {
     return (

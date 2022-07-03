@@ -6,7 +6,7 @@ import { Button } from 'antd'
 import Modal from 'react-modal'
 import { useValues, useActions } from 'kea'
 import { layoutLogic } from '../../logic/layoutLogic'
-import './style.scss'
+// import './style.scss'
 
 export const GetStartedModal = () => {
     const { isGetStartedModalOpen } = useValues(layoutLogic)

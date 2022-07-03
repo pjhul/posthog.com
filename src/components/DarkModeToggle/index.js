@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useValues, useActions } from 'kea'
 import { layoutLogic } from '../../logic/layoutLogic'
 import { posthogAnalyticsLogic } from '../../logic/posthogAnalyticsLogic'
-import './style.scss'
+// import './style.scss'
 
 export const DarkModeToggle = () => {
     const { websiteTheme } = useValues(layoutLogic)

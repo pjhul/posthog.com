@@ -7,7 +7,7 @@ import { ExportOutlined } from '@ant-design/icons'
 import { useActions, useValues } from 'kea'
 import { pluginLibraryLogic, toPathName } from '../../logic/pluginLibraryLogic'
 import { SEO } from '../seo'
-import './style.scss'
+// import './style.scss'
 
 export const PluginModal = () => {
     const { activePlugin, activePluginName, pluginLoading } = useValues(pluginLibraryLogic)

@@ -9,7 +9,7 @@ import superday from './images/superday.svg'
 import offer from './images/offer.svg'
 import SliderNav from '../../SliderNav'
 
-import './index.css'
+// import './index.css'
 
 const SliderItem = ({ image, title, subtitle, description }) => {
     return (

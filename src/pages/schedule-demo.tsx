@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { Spacer } from '../components/Spacer'
-import './styles/yc-onboarding.scss'
+// import './styles/yc-onboarding.scss'
 import { SEO } from '../components/seo'
 import Contact from 'components/Contact'
 

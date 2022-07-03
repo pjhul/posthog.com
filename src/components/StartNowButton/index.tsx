@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Button from 'antd/lib/button'
 import rays from '../../images/rays.svg'
-import './style.scss'
+// import './style.scss'
 
 interface StartNowButtonProps {
     href?: string

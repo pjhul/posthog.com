@@ -8,7 +8,7 @@ import { FAQs } from '../components/Pricing/FAQs'
 import { PlanComparison } from '../components/Pricing/PlanComparison'
 import { PricingTable } from '../components/Pricing/PricingTable'
 import { Quote } from '../components/Pricing/Quote'
-import '../components/Pricing/styles/index.scss'
+// import '../components/Pricing/styles/index.scss'
 import { SEO } from '../components/seo'
 
 const PricingNew = (): JSX.Element => {

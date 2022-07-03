@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-modal'
 import { useValues, useActions } from 'kea'
-import './SignupModal.scss'
+// import './SignupModal.scss'
 import { Button, Input } from 'antd'
 import { ButtonBlock } from 'components/ButtonBlock/ButtonBlock'
 import { signupLogic } from 'logic/signupLogic'

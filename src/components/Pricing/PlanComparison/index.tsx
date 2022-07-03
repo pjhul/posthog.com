@@ -2,7 +2,7 @@ import { CallToAction } from 'components/CallToAction'
 import React, { Fragment, useState } from 'react'
 import CheckIcon from '../../../images/check.svg'
 import MinusIcon from '../../../images/x.svg'
-import './styles/index.scss'
+// import './styles/index.scss'
 
 const tiers = [
     {

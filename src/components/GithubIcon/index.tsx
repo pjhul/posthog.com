@@ -1,7 +1,7 @@
 import React from 'react'
 import { GithubOutlined } from '@ant-design/icons'
 
-import './style.scss'
+// import './style.scss'
 
 interface GithubIconProps {
     username: string

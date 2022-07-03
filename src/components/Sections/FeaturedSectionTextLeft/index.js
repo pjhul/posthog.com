@@ -1,6 +1,6 @@
 import React from 'react'
-import './style.scss'
-import '../featured-section.scss'
+// import './style.scss'
+// import '../featured-section.scss'
 import { Spacer } from '../../Spacer'
 
 export const FeaturedSectionTextLeft = ({
