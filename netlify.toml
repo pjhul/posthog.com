@@ -7,6 +7,9 @@
     "!.cache/query-engine/assets/vendor/**/*",
     "!.cache/webpack/**/*",
     "!.cache/page-ssr/routes/component*.js",
+    "!.cache/**/*.png",
+    "!.cache/**/*.gif",
+    "!.cache/**/*.jpg",
     "!.cache/.parcel-cache/**/*"
   ]
 
