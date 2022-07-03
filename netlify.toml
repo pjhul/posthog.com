@@ -6,6 +6,7 @@
     "!.cache/query-engine/assets/images/**/*",
     "!.cache/query-engine/assets/vendor/**/*",
     "!.cache/webpack/**/*",
+    "!.cache/page-ssr/routes/component*.js",
     "!.cache/.parcel-cache/**/*"
   ]
 
