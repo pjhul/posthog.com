@@ -1,9 +1,7 @@
 [functions]
   node_bundler = "esbuild"
   included_files = [
-    "!.cache/**/*"
-    ".cache/page-ssr/**/*",
-    ".cache/query-engine/**/*",
+    "!.cache/query-engine/assets/**/chromium.br",
   ]
 
 [[redirects]]
