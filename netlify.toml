@@ -1,8 +1,8 @@
 [functions]
+  node_bundler = "esbuild"
   included_files = [
     "!.cache/query-engine/assets/**/chromium.br",
-    "!.cache/query-engine/assets/**/*",
-]
+  ]
 
 [[redirects]]
   from = "/plugins/*"
