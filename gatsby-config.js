@@ -46,8 +46,9 @@ module.exports = {
             },
         },
         `gatsby-plugin-netlify`,
-        'gatsby-plugin-react-helmet',
         `gatsby-plugin-sass`,
+        'gatsby-plugin-react-helmet',
+        'gatsby-plugin-webpack-bundle-analyser-v2',
         `gatsby-plugin-typescript`,
         `gatsby-plugin-smoothscroll`,
         {
