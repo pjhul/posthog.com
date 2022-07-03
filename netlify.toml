@@ -1,7 +1,10 @@
 [functions]
   node_bundler = "esbuild"
   included_files = [
-    "!.cache/query-engine/assets/**/chromium.br",
+    "!.cache/query-engine/**/*.br",
+    "!.cache/query-engine/assets/static/**/*",
+    "!.cache/query-engine/assets/images/**/*",
+    "!.cache/query-engine/assets/images/**/*",
     "!.cache/webpack/**/*"
   ]
 
