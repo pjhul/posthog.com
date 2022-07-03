@@ -1,11 +1,11 @@
-import Chart from 'chart.js'
+// import { Chart } from 'chart.js'
 import { Spacer } from 'components/Spacer'
 import { useValues } from 'kea'
-import React, { useEffect, useRef } from 'react'
+// import React, { useEffect, useRef } from 'react'
 import { contributorStatsLogic } from './contributorStatsLogic'
 
 export const ContributorsChart = () => {
-    const canvasRef = useRef<HTMLCanvasElement>(null)
+    /*const canvasRef = useRef<HTMLCanvasElement>(null)
     const { datasets, datasetsLoading } = useValues(contributorStatsLogic)
 
     const lineColorsList = [
@@ -103,17 +103,15 @@ export const ContributorsChart = () => {
         }
     }, [datasets])
 
-    return (
+    return datasetsLoading ? (
+        <Spacer height={800} />
+    ) : (
         <>
-            {datasetsLoading ? (
-                <Spacer height={800} />
-            ) : (
-                <>
-                    <h2>Top 15 PostHog Contributors</h2>
-                    <Spacer height={10} />
-                    <canvas ref={canvasRef} style={{ maxWidth: 1000, maxHeight: 800 }} className="center centered" />
-                </>
-            )}
+            <h2>Top 15 PostHog Contributors</h2>
+            <Spacer height={10} />
+            <canvas ref={canvasRef} style={{ maxWidth: 1000, maxHeight: 800 }} className="center centered" />
         </>
-    )
+    )*/
+
+    return null
 }
