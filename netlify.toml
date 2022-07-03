@@ -1,3 +1,6 @@
+[functions]
+  included_files = ["!.cache/*"]
+
 [[redirects]]
   from = "/plugins/*"
   to = "/apps/:splat"
