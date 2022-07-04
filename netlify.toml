@@ -4,7 +4,6 @@
     "!.cache/query-engine/**/*.br",
     "!.cache/query-engine/assets/static/**/*",
     "!.cache/query-engine/assets/images/**/*",
-    "!.cache/query-engine/assets/vendor/**/*",
     "!.cache/webpack/**/*",
     "!.cache/page-ssr/routes/component*.js",
     "!.cache/**/*.png",
