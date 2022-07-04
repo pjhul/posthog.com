@@ -273,7 +273,6 @@ module.exports = exports.createPages = async ({ actions, graphql }) => {
                 tableOfContents: [...tableOfContents, { depth: 0, url: 'squeak-questions', value: 'Questions?' }],
                 slug,
             },
-            defer: true,
         })
     })
 
@@ -399,7 +398,6 @@ module.exports = exports.createPages = async ({ actions, graphql }) => {
                 categories: postCategories.map((category) => ({ title: category, url: categories[category].url })),
                 slug,
             },
-            defer: true,
         })
     })
 
