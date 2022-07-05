@@ -17,6 +17,7 @@ module.exports = {
     },
     trailingSlash: 'never',
     plugins: [
+        `gatsby-plugin-netlify`,
         {
             resolve: `gatsby-source-squeak`,
             options: {
@@ -47,7 +48,6 @@ module.exports = {
         `gatsby-plugin-netlify`,
         `gatsby-plugin-sass`,
         'gatsby-plugin-react-helmet',
-        'gatsby-plugin-webpack-bundle-analyser-v2',
         `gatsby-plugin-typescript`,
         `gatsby-plugin-smoothscroll`,
         {
@@ -132,7 +132,12 @@ module.exports = {
                 path: `${__dirname}/static/images/authors`,
             },
         },
-        `gatsby-transformer-gitinfo`,
+        {
+            resolve: `gatsby-transformer-gitinfo`,
+            options: {
+                include: /[src|contents]\/.*\.mdx?$/,
+            },
+        },
         `gatsby-plugin-image`,
         'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
