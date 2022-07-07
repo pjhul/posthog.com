@@ -172,6 +172,7 @@
         "tailwindcss": "^3.1.4",
         "webpack": "5"
     },
+    "private": true,
     "husky": {
         "hooks": {
             "pre-commit": "node ./scripts/mdxImportGen && git add src/mdxGlobalComponents.js && lint-staged"
