@@ -3,7 +3,7 @@ const sharp = require(`sharp`)
 const glob = require(`glob`)
 const fs = require(`fs-extra`)
 
-const matches = glob.sync(`contents/**/*.{png,jpg,jpeg}`)
+const matches = glob.sync(`{contents,src,static}/**/*.{png,jpg,jpeg}`)
 const MAX_WIDTH = 1800
 const QUALITY = 70
 
@@ -15,6 +15,8 @@ Promise.all(
         if (!info || info.width < MAX_WIDTH) {
             return
         }
+
+        console.log('Optimzing ' + match)
 
         const optimizedName = match.replace(/(\..+)$/, (match, ext) => `-optimized${ext}`)
 
