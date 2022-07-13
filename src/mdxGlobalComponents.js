@@ -1,7 +1,5 @@
 // AUTO GENERATED FILE
 
-import { Endpoint } from './components/APIDocs/Endpoint'
-import { MethodTags } from './components/APIDocs/MethodTags'
 import { Accordion } from './components/Accordion'
 import { AnchorScrollNavbar } from './components/AnchorScrollNavbar'
 import { AnimateIntoView } from './components/AnimateIntoView'
@@ -27,6 +25,7 @@ import { WorkingAtPostHog } from './components/Careers/WorkingAtPostHog'
 import { Checkbox } from './components/Checkbox'
 import { Chip } from './components/Chip'
 import { CodeBlock } from './components/CodeBlock'
+import { CodeSnippets } from './components/CodeSnippets'
 import { CommunityQuestions } from './components/CommunityQuestions'
 import { CompensationCalculator } from './components/CompensationCalculator'
 import { Contact } from './components/Contact'
@@ -47,7 +46,6 @@ import { FeaturesSelfHost } from './components/FeaturesSelfHost'
 import { FloatedImage } from './components/FloatedImage'
 import { Footer } from './components/Footer'
 import { FooterCTA } from './components/FooterCTA'
-import { GetStartedModal } from './components/GetStartedModal'
 import { GithubIcon } from './components/GithubIcon'
 import { Heading } from './components/Heading'
 import { HiddenSection } from './components/HiddenSection'
@@ -68,7 +66,6 @@ import { NotFoundPage } from './components/NotFoundPage'
 import { OtherFeaturesBlock } from './components/OtherFeaturesBlock'
 import { OverflowXSection } from './components/OverflowXSection'
 import { PageHeader } from './components/PageHeader'
-import { PlanComparisonTable } from './components/PlanComparisonTable'
 import { PostCard } from './components/PostCard'
 import { PostLayout } from './components/PostLayout'
 import { CloudVsSelfHost } from './components/Pricing/CloudVsSelfHost'
@@ -86,21 +83,18 @@ import { ProductFooter } from './components/ProductFooter'
 import { ProductPage } from './components/ProductPage'
 import { ProductSectionHeader } from './components/ProductSectionHeader'
 import { Question } from './components/Question'
-import { ResponsiveAnchor } from './components/ResponsiveAnchor'
 import { RocketHorizontalRule } from './components/RocketHorizontalRule'
+import { SearchBar } from './components/SearchBar'
 import { DesignedForYourStackBlock } from './components/Sections/DesignedForYourStackBlock'
 import { FeaturedSectionTextLeft } from './components/Sections/FeaturedSectionTextLeft'
 import { FeaturedSectionTextRight } from './components/Sections/FeaturedSectionTextRight'
 import { FeaturedSectionTripleImage } from './components/Sections/FeaturedSectionTripleImage'
-import { SignupModal } from './components/SignupModal'
 import { SliderNav } from './components/SliderNav'
 import { Spacer } from './components/Spacer'
 import { StarRepoButton } from './components/StarRepoButton'
 import { StarUsBanner } from './components/StarUsBanner'
-import { StartNowButton } from './components/StartNowButton'
 import { Structure } from './components/Structure'
 import { Subscribe } from './components/Subscribe'
-import { TableOfContents } from './components/TableOfContents'
 import { TeamQuote } from './components/TeamQuote'
 import { Tooltip } from './components/Tooltip'
 import { Tutorials } from './components/Tutorials'
@@ -111,8 +105,6 @@ import { WorkableSnippet } from './components/WorkableSnippet'
 import { ZoomImage } from './components/ZoomImage'
 
 export const shortcodes = {
-    Endpoint,
-    MethodTags,
     Accordion,
     AnchorScrollNavbar,
     AnimateIntoView,
@@ -138,6 +130,7 @@ export const shortcodes = {
     Checkbox,
     Chip,
     CodeBlock,
+    CodeSnippets,
     CommunityQuestions,
     CompensationCalculator,
     Contact,
@@ -158,7 +151,6 @@ export const shortcodes = {
     FloatedImage,
     Footer,
     FooterCTA,
-    GetStartedModal,
     GithubIcon,
     Heading,
     HiddenSection,
@@ -179,7 +171,6 @@ export const shortcodes = {
     OtherFeaturesBlock,
     OverflowXSection,
     PageHeader,
-    PlanComparisonTable,
     PostCard,
     PostLayout,
     CloudVsSelfHost,
@@ -197,21 +188,18 @@ export const shortcodes = {
     ProductPage,
     ProductSectionHeader,
     Question,
-    ResponsiveAnchor,
     RocketHorizontalRule,
+    SearchBar,
     DesignedForYourStackBlock,
     FeaturedSectionTextLeft,
     FeaturedSectionTextRight,
     FeaturedSectionTripleImage,
-    SignupModal,
     SliderNav,
     Spacer,
     StarRepoButton,
     StarUsBanner,
-    StartNowButton,
     Structure,
     Subscribe,
-    TableOfContents,
     TeamQuote,
     Tooltip,
     Tutorials,
