@@ -1,6 +1,7 @@
 [build.environment]
   NODE_VERSION = "16"
   GATSBY_CPU_COUNT = "2"
+  GATSBY_EXCLUDE_DATASTORE_FROM_BUNDLE = "true"
 
 [[redirects]]
   from = "/plugins/*"
