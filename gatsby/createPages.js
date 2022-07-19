@@ -507,6 +507,7 @@ module.exports = exports.createPages = async ({ actions, graphql }) => {
         createPage({
             path: `questions/${id}`,
             component: Question,
+            defer: true,
             context: {
                 id,
             },
