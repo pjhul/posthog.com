@@ -10,7 +10,7 @@ const { flattenMenu } = require('./utils')
 const fetch = require('node-fetch')
 
 module.exports = exports.onPostBuild = async ({ graphql }) => {
-    const { data } = await graphql(`
+    /*const { data } = await graphql(`
         query {
             blog: allMdx(
                 filter: { fields: { slug: { regex: "/^/blog/" } }, frontmatter: { featuredImageType: { eq: "full" } } }
@@ -286,5 +286,5 @@ module.exports = exports.onPostBuild = async ({ graphql }) => {
         })
     }
 
-    await browser.close()
+    await browser.close()*/
 }
